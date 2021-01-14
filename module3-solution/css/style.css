@@ -1,32 +1,51 @@
 /* HEADER */
-
 #header-nav {
+    /* position: relative; */
     background-color: darkgray;
-    border-radius: 0;
-    border: 0;
-    padding: 10px 0 10px 0;
+    /* padding: 10px 0 10px 0; */
 }
 
-.navbar-header h1 {
+#header-nav .container {
+    margin-left: 0;
+    /* margin-bottom: -8px; */
+}
+
+.navbar-header {
+    margin-bottom: 0;
+}
+
+.navbar-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-brand h1 {
+    position: absolute;
     color: black;
     font-size: 2em;
-    margin-top: 0;
-    margin-bottom: 0;
+    top: 15px;
+    left: 30px;
+    bottom: 0;
     line-height: 0.6;
 }
 
 #nav-list {
-    margin-top: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-list li {
+    background-color: whitesmoke;
 }
 
 #nav-list a {
     color: black;
     font-size: 1.5em;
-    text-align: center;
 }
 
 #nav-list a:hover {
-    background: whitesmoke;
+    color: white;
+    background: black;
 }
 
 .navbar-header button.navbar-toggle,
@@ -36,7 +55,8 @@
 
 .navbar-header button.navbar-toggle {
     clear: right;
-    margin-top: 10px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
 }
 
 /* EMD OF HEADER */
@@ -68,7 +88,7 @@
 
 .menu-list h2,
 .our-menu h1 {
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .menu-list span {
