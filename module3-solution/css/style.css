@@ -75,6 +75,11 @@
     background-color: darkgray;
 }
 
+#menu-detail {
+    margin: 0;
+    padding: 0;
+}
+
 .menu-list h2 {
     color: black;
     margin-top: 0px;
@@ -86,6 +91,7 @@
     margin-bottom: 35px;
 }
 
+.navbar-brand h1,
 .menu-list h2,
 .our-menu h1 {
     font-weight: bold;
