@@ -40,3 +40,40 @@
 }
 
 /* EMD OF HEADER */
+
+/* JUMBOTRON */
+#main-content {
+    width: 100%;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+#main-content .menu-list {
+    padding: 15px 25px;
+    background-color: darkgray;
+}
+
+.menu-list h2 {
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.our-menu {
+    color: black;
+    margin-bottom: 35px;
+}
+
+.menu-list h2,
+.our-menu h1 {
+    font-weight: 500;
+}
+
+.menu-list span {
+    color: black;
+    font-size: 18px;
+}
+
+/* END OF JUMBOTRON */
